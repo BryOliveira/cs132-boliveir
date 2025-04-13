@@ -1,0 +1,65 @@
+/* 
+  Name: Bryan Oliveira
+  Date: April 11th, 2025
+
+  Description: This is the styles.css file for the home page of my 
+  portfolio website. It serves as an auxiliary stylesheet, defining the layout
+  and design of the home page's grid layout.
+*/
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  gap: 2em;
+}
+
+.grid-row {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #4a4a4a;
+  border-radius: 1em;
+  padding: 1.5em;
+  margin: 1em;
+  line-height: 1.7em;
+  flex: 1 1 45%;
+  transition: 1s;
+}
+
+.grid-item:hover {
+  background-color: #404040;
+  transition: 1s;
+}
+
+.grid-item h2, p {
+  margin: .3em;
+  padding: .1em
+}
+
+.headshot h1 {
+  font-size: 2.5em;
+}
+
+.headshot {
+  text-align: center;
+}
+
+.headshot img {
+  width: 15%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border: 3px solid #ffffff; 
+  border-radius: 50%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+}
+
+.headshot img:hover {
+  border: 3px solid #a6e2f6;
+  transition: .2s;
+}
