@@ -7,6 +7,8 @@
   Focus on creating a clean and dark-mode look.
 */
 
+
+
 body {
   font-family: 'Noto Sans', sans-serif;
   color: white;
@@ -38,6 +40,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  width: 100%;
   gap: 15px;
 }
 
@@ -52,17 +55,34 @@ nav a {
   transition: 0.2s;
 }
 
-#home-link {
-    font-weight: bold;
+nav ul li:first-child {
+  margin-right: auto;
+  font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover, button:hover {
   background-color: #333;
   color: #a6e2f6;
   border-radius: 5px;
 }
 
-h1:hover, h2:hover, p:hover, li:hover {
-    color: #a6e2f6;
-    transition: .2s;
-  }
+h1:hover, h2:hover, p:hover, li:hover, button:hover {
+  color: #a6e2f6;
+  transition: .2s;
+}
+
+nav button {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  align-items: center;
+  display: flex;
+}
+
+nav button i::before {
+  font-size: 1.7em;
+}
+
+nav button:hover {
+  cursor: pointer;
+}

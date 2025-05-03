@@ -42,6 +42,7 @@
 
 .headshot h1 {
   font-size: 2.5em;
+  margin: 1em 0 .2em 0;
 }
 
 .headshot {
@@ -61,5 +62,25 @@
 
 .headshot img:hover {
   border: 3px solid #a6e2f6;
+  transition: .2s;
+}
+
+.socials {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.socials i::before {
+  width: 40px;
+  height: 40px;
+  color: #a6e2f6;
+}
+
+.socials i:hover::before {
+  color: #ffffff;
   transition: .2s;
 }

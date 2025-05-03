@@ -8,20 +8,38 @@
   represented by a card. Each card will include a title, description, and a link to
   the project on GitHub.
 -->
+<!-- 
+  Image used for project cards:
+  https://www.pexels.com/photo/green-and-yellow-printed-textile-330771/
+  Photographer: Markus Spiske
+  Uploaded: February 22nd, 2017
+  Used: May 2nd, 2025
+-->
+
+
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Open Source SVG icons -->
+  <!-- Source: https://iconoir.com/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" /> 
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="projects-styles.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header id="nav-bar">
     <nav>
-      <a id="home-link" href="index.html">Home</a>
       <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <button class="mode-btn"><i class="iconoir-sun-light"></i></button>
+        </li>
         <li>
           <a href="projects.html">Projects</a>
         </li>
@@ -31,5 +49,71 @@
       </ul>
     </nav>  
   </header>
+  <main>
+    <div class="top-line">
+      <h1>Projects</h1>
+      <ul class="added-filters">
+        <li>Some Placeholders</li>
+        <li>Python</li>
+        <li>Data</li>
+      </ul>
+      <input type="text" placeholder="Project Filters" class="filter-input"></input>
+    </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="affor-db">
+        <h2>affor-db</h2>
+        <p>Project description goes here. This is a brief overview of what the project is about.</p>
+        <ul class="filter-tags">
+          <li>MySQL</li>
+          <li>Python</li>
+          <li>Data</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="leggies">
+        <h2>Leggies</h2>
+        <p>Project description goes here. This is a brief overview of what the project is about.</p>
+        <ul class="filter-tags">
+          <li>C</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pwd-reset">
+        <h2>Lloyd House Password Reset</h2>
+        <p>Project description goes here. This is a brief overview of what the project is about.</p>
+        <ul class="filter-tags">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 3">
+        <h2>Wii-rd Bowling</h2>
+        <p>Project description goes here. This is a brief overview of what the project is about.</p>
+        <ul class="filter-tags">
+          <li>Python</li>
+          <li>Embedded Systems</li>
+          <li>CircuitPython</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 4">
+        <h2>Chrome Critter</h2>
+        <p>Project description goes here. This is a brief overview of what the project is about.</p>
+        <ul class="filter-tags">
+          <li>Web</li>
+          <li>HTML/CSS</li>
+          <li>Chrome API</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
 </body>
+
+
 </html>

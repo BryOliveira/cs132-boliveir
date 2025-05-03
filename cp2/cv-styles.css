@@ -1,0 +1,82 @@
+/* 
+  Name: Bryan Oliveira
+  Date: May 2nd, 2025
+
+  Description: This is the cv-styles.css file for the cv page of my 
+  portfolio website. It serves as an auxiliary stylesheet, defining the layout
+  and design of the cv page's column layout.
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #a6e2f6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: .2s;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv > div {
+  padding: .25vh 2vh;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+#info {
+  list-style: none;
+  padding: 0;
+}
+
+#info li {
+  padding: .2em 0;
+}
+
+#headline {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+#headline button {
+  border: none;
+  color: white;
+  background-color: #86b7c7;
+  height: 3.5em;
+  width: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#headline i::before {
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#headline button:hover {
+  color: white;
+  transition: .2s;
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+/* 
+  Name: Bryan Oliveira
+  Date: May 2nd, 2025
+
+  Description: This is the projects-styles.css file for the projects page of my 
+  portfolio website. It serves as an auxiliary stylesheet, defining the layout
+  and design of the project page's grid layout.
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: 1em;
+}
+
+.top-line ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  background-color: #8e8e8e;
+  color: #ffffff;
+  padding: 1em .5em 1em .5em;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.top-line li {
+  cursor: pointer;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(31%, auto));
+  column-gap: 2em;
+  row-gap: 0;
+  width: 90%;
+  background-color: #323232;
+  padding: 2em;
+  margin-bottom: 2%;
+}
+
+.project-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  max-height: fit-content;
+  padding-bottom: 1em;
+}
+
+.project-card h2, p{
+  margin: 10px 15px;
+}
+
+.filter-tags {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  margin: 0 20px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.filter-tags li {
+  background-color: #55899b;
+  padding: .2em .5em;
+  border-radius: 8px;
+}
+
+.filter-tags li:hover {
+  color: black;
+}
+
+
+img {
+  width: 100%;  
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}

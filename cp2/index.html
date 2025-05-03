@@ -15,14 +15,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Open Source SVG icons -->
+  <!-- Source: https://iconoir.com/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" /> 
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="home-styles.css">
 </head>
 <body>
   <header id="nav-bar">
     <nav>
-      <a id="home-link" href="index.html">Home</a>
       <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <button class="mode-btn"><i class="iconoir-sun-light"></i></button>
+        </li>
         <li>
           <a href="projects.html">Projects</a>
         </li>
@@ -32,43 +40,53 @@
       </ul>
     </nav>  
   </header>
-
-  <div class="grid">
-    <div class="headshot">
-      <img src="imgs/headshot.jpg" alt="headshot.jpg">
-      <h1>Bryan Oliveira</h1>
-      <p>Caltech Undergraduate, Software Engineer Intern</p>
-    </div>
-  
-    <div class="grid-row">
-      <div class="grid-item">
-        <h2>About Me</h2>
-        <p>
-          Hello! I'm Bryan Oliveira, an undergraduate studying Computer Science at
-          Caltech.<br>
-          This past summer I interned at Navy Federal Credit Union, 
-          where I developed a SharePoint site and authored a onboarding guide for 
-          new-hires. I spent the prior summer as a Peer Mentor for Caltech's
-          First-Year Success Research Institute. I've taken many student leadership/
-          government positions during my time at Caltech, and have the honor of
-          serving on the Caltech Hispanic and Latino Association's executive 
-          committee (Caltech's SHPE and MAES Chapter). I'm also the captain of 
-          a Caltech Sunday League Soccer team, and a member of the 
-          Caltech Volleyball Club.
-        </p>
-      </div>
-      <div class="grid-item">
-        <h2>Professional Interests</h2>
-        <ul>
-          <li>Software Engineering</li>
-          <li>Computer Hardware</li>
-          <li>Renewable Energy & Sustainability</li>
-          <li>Systems Programming</li>
+  <main>
+    <div class="grid">
+      <div class="headshot">
+        <img src="imgs/headshot.jpg" alt="headshot">
+        <h1>Bryan Oliveira</h1>
+        <p>Caltech Undergraduate, Software Engineer Intern</p>
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/BryOliveira"><i class="iconoir-github-circle"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/bryan-r-oliveira/"><i class="iconoir-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="mailto:boliveir@caltech.edu"><i class="iconoir-mail"></i></a>
+          </li>
         </ul>
       </div>
-    </div>
-  </div>  
-
-
+    
+      <div class="grid-row">
+        <div class="grid-item">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Bryan Oliveira, an undergraduate studying Computer Science at
+            Caltech.<br>
+            This past summer I interned at Navy Federal Credit Union, 
+            where I developed a SharePoint site and authored a onboarding guide for 
+            new-hires. I spent the prior summer as a Peer Mentor for Caltech's
+            First-Year Success Research Institute. I've taken many student leadership/
+            government positions during my time at Caltech, and have the honor of
+            serving on the Caltech Hispanic and Latino Association's executive 
+            committee (Caltech's SHPE and MAES Chapter). I'm also the captain of 
+            a Caltech Sunday League Soccer team, and a member of the 
+            Caltech Volleyball Club.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h2>Professional Interests</h2>
+          <ul>
+            <li>Software Engineering</li>
+            <li>Computer Hardware</li>
+            <li>Renewable Energy & Sustainability</li>
+            <li>Systems Programming</li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+  </main>
 </body>
 </html>

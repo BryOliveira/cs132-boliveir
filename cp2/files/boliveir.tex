@@ -1,0 +1,244 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\normalsize{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Bryan Oliveira} \\ \vspace{1pt}
+    \small
+    \href{https://github.com/BryOliveira}{\raisebox{-0.1\height}{\faGithub \scriptsize} \underline{\smash{github.com/BryOliveira}}} ~
+    \href{mailto:bryoliveira2004@gmail.com}{\raisebox{-0.1\height}{\faEnvelope \scriptsize} \underline{\smash{bryoliveira2004@gmail.com}}} ~
+    \href{https://linkedin.com/in/bryan-r-oliveira/}{\raisebox{-0.1\height}{\faLinkedin \scriptsize} \underline{\smash{linkedin.com/in/bryan-r-oliveira}}}
+    \vspace{-12pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California Institute of Technology}{Jun. 2026}
+      {Bachelor of Science in Computer Science $|$ GPA: 3.7}{Pasadena, CA}
+  \resumeSubHeadingListEnd
+\vspace{-14pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-4pt, parsep=5pt]
+                \item\small Object-Oriented Programming
+                \item Algorithms and Complexity Analysis
+                \item Data Structures
+                \item Software Design
+                \item Systems Programming
+                \item Deep Learning Systems
+                \item Relational Databases
+                \item Differential Equations
+                \item Probability Models
+                \item Web Development
+                \item GPU Programming
+                \item Machine Learning and Data Mining
+                \item Integrated Circuits
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\vspace{-4pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, Python, C, C++, Java, HTML, CSS, MySQL, MATLAB} \\
+     \textbf{Frameworks/Libraries}{: React, Flask, PyTorch, sklearn, pandas, Matplotlib, NumPy, CUDA} \\
+     \textbf{DevOps \& Other}{: Git, VSCode, Linux, WSL, LaTeX}
+    }}
+ \end{itemize}
+ \vspace{-18pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Navy Federal Credit Union}{Jun. 2024 -- Sep. 2024}
+      {Software Engineer Intern}{Vienna, VA}
+      \resumeItemListStart
+        \resumeItem{Engineered internal SharePoint portals for the Security, Financial, and Fraud teams consisting of 60+ users cutting average onboarding time by about 15\%.}
+        \resumeItem{Designed 30+ custom UI icons and infographics using HTML, CSS, and JavaScript, strengthening branding and enhancing UI/UX cohesion.}
+        \resumeItem{Spearheaded development of a JavaScript org-chart creation web app to replace static diagrams and to enable real-time structural updates for all $\sim$24,000 employees.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-7pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Affor-db: House Affordability Database Application} $|$ \emph{Python, MySQL}}{Feb. -- Mar. 2025}
+          \resumeItemListStart
+            \resumeItem{Co-created a CLI tool integrating MySQL schemas with housing, mortgage, and job market datasets to generate personalized affordability metrics across 450+ jobs and 350+ companies across all U.S. states.}
+            \vspace{-18pt}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Leggies: Physics-Based Fighting Game} $|$ \emph{C, GitLab}}{May -- Jun. 2024}
+          \resumeItemListStart
+            \resumeItem{Constructed a 1v1 multiplayer fighting game with collision detection, sprite animation, and real-time combat logic.}
+            \resumeItem{Developed a custom physics engine in C for applying object-oriented design patterns for entity behavior.}  
+            \resumeItem{Collaborated with a 3-person team using GitLab, resolving merge conflicts and optimizing shared code structure.}
+          \resumeItemListEnd
+          \vspace{-18pt}
+      \resumeProjectHeading
+          {\textbf{Secure Password Recovery Tool} $|$ \emph{Python, Flask, HTML, CSS, MySQL}}{Dec. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a secure password reset system using one-time hashed token authentication, enabling recovery for 180+ users.}
+            \resumeItem{Integrated Flask with a MySQL user database and front-end interface for seamless end-to-end user password recovery.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15.5pt}
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurriculars}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Caltech Hispanic and Latino Association (SHPE Chapter)}{Jun. 2024 -- Present}{Social Director}{Pasadena, CA}
+        \resumeItemListStart
+          \resumeItem{Directed community-building events, strengthening networks for Caltech’s 170+ Latine undergraduates.}
+          \resumeItem{Coordinated with 8 other executive committee members and many cross-campus leaders to advance diversity, equity, and inclusion initiatives.}
+        \resumeItemListEnd
+        \resumeSubheading{Caltech Sunday League Soccer}{Feb. 2023 -- Present}{Captain}{Pasadena, CA}
+        \resumeItemListStart
+          \resumeItem{Lead and manage a 31-member undergraduate team, coordinating with Caltech's recreation director on scheduling and compliance.}
+        \resumeItemListEnd
+        \resumeSubheading{Caltech First-Year Success Research Institute}{Jul. 2023 -- Sep. 2023}{Peer Mentor}{Pasadena, CA}
+        \resumeItemListStart
+            \resumeItem{Orchestrated weekly social events for 48 incoming first-year students, fostering community and accelerating their college transition, earning a 100\% satisfaction rate in post-program surveys.}
+            \resumeItem{Guided 10 students through bi-weekly check-ins, delivering personalized mentorship and academic/social support.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\end{document}
