@@ -14,10 +14,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Open Source SVG icons -->
   <!-- Source: https://iconoir.com/ -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" /> 
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/mode-handler.js" defer></script>
+  <script src="./scripts/dl-handler.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="cv-styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/cv-styles.css">
 </head>
 <body>
   <header id="nav-bar">
@@ -27,7 +30,7 @@
           <a href="index.html">Home</a>
         </li>
         <li>
-          <button class="mode-btn"><i class="iconoir-sun-light"></i></button>
+          <button id="mode-btn"><i class="iconoir-sun-light"></i></button>
         </li>
         <li>
           <a href="projects.html">Projects</a>
@@ -42,15 +45,23 @@
     <div class="cv">
     <div id="headline">
       <h1>Curriculum Vitae</h1>
-      <select></select>
-      <button><i class="iconoir-download-square-solid"></i></button>
+      <div id="file">
+        <label for="format-dropdown">File Format:</label>
+        <select name="file-formats" id="format-dropdown">
+          <option value="pdf">*.pdf</option>
+          <option value="tex">*.tex</option>
+        </select>
+      </div>
+      <button id="file-btn">
+        <i class="iconoir-download-square-solid"></i>
+      </button>
     </div>
       <div>
         <h2>Personal Info</h2>
         <ul id="info">
           <li><span class="bolded-text">Name: </span>Bryan Oliveira</li>
           <li><span class="bolded-text">Email: </span><a href="mailto:boliveir@caltech.edu">boliveir@caltech.edu</a></li>
-          <li><span class="bolded-text">Spoken Languages: <span>English (Fluent), Portuguese (Fluent), Spanish (Conversational), Japanese (Elementary)</li>
+          <li><span class="bolded-text">Spoken Languages: </span>English (Fluent), Portuguese (Fluent), Spanish (Conversational), Japanese (Elementary)</li>
         </ul>
       </div>
       <div>

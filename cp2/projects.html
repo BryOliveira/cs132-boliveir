@@ -25,10 +25,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Open Source SVG icons -->
   <!-- Source: https://iconoir.com/ -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" /> 
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/mode-handler.js" defer></script>
+  <script src="./scripts/project-handler.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="projects-styles.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/projects-styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <header id="nav-bar">
@@ -38,7 +41,7 @@
           <a href="index.html">Home</a>
         </li>
         <li>
-          <button class="mode-btn"><i class="iconoir-sun-light"></i></button>
+          <button id="mode-btn"><i class="iconoir-sun-light"></i></button>
         </li>
         <li>
           <a href="projects.html">Projects</a>
@@ -58,6 +61,7 @@
         <li>Data</li>
       </ul>
       <input type="text" placeholder="Project Filters" class="filter-input"></input>
+      <button id="add-card-btn">Add Card</button>
     </div>
     <div class="project-grid">
       <div class="project-card">

@@ -6,6 +6,24 @@
   portfolio website. It serves as an auxiliary stylesheet, defining the layout
   and design of the home page's grid layout.
 */
+
+:root {
+  --text-color:       white;
+  --bg-color:         #3a3a3a;
+  --nav-bg:           #1e1e1e;
+  --link-hover-bg:    #333;
+  --hover-color:      #a6e2f6;
+}
+
+[data-theme='light'] {
+  --text-color:       #222;
+  --bg-color:         #fff;
+  --nav-bg:           #f1f1f1;
+  --grid-bg:          #fafafa;
+  --link-hover-bg:    #e0e0e0;
+  --hover-color:      #0077cc;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
@@ -21,7 +39,7 @@
 }
 
 .grid-item {
-  background-color: #4a4a4a;
+  background-color: var(--nav-bg);
   border-radius: 1em;
   padding: 1.5em;
   margin: 1em;
@@ -31,7 +49,7 @@
 }
 
 .grid-item:hover {
-  background-color: #404040;
+  background-color: var(--link-hover-bg);
   transition: 1s;
 }
 
@@ -54,14 +72,14 @@
   height: auto;
   margin: auto;
   display: block;
-  border: 3px solid #ffffff; 
+  border: 3px solid var(--text-color); 
   border-radius: 50%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
 }
 
 .headshot img:hover {
-  border: 3px solid #a6e2f6;
+  border: 3px solid var(--hover-color);
   transition: .2s;
 }
 
@@ -77,10 +95,10 @@
 .socials i::before {
   width: 40px;
   height: 40px;
-  color: #a6e2f6;
+  color: var(--hover-color);
 }
 
 .socials i:hover::before {
-  color: #ffffff;
+  color: var(--text-color);
   transition: .2s;
 }

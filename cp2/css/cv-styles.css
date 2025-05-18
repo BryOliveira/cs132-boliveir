@@ -1,0 +1,128 @@
+/* 
+  Name: Bryan Oliveira
+  Date: May 2nd, 2025
+
+  Description: This is the cv-styles.css file for the cv page of my 
+  portfolio website. It serves as an auxiliary stylesheet, defining the layout
+  and design of the cv page's column layout.
+*/
+
+:root {
+  --text-color:       white;
+  --bg-color:         #3a3a3a;
+  --nav-bg:           #1e1e1e;
+  --link-hover-bg:    #333;
+  --hover-color:      #a6e2f6;
+  --button-bg:        #86b7c7;
+  --button-hover-bg:  #76a0af;
+  --select-bg:        #474747;
+  --select-border:    var(--hover-color);
+  --select-hover-border: #ffffff;
+}
+
+[data-theme='light'] {
+  --text-color:       #222;
+  --bg-color:         #fff;
+  --nav-bg:           #f1f1f1;
+  --link-hover-bg:    #e0e0e0;
+  --hover-color:      #0077cc;
+  --button-bg:        #86b7c7;
+  --button-hover-bg:  #96cadd;
+  --select-bg:        #e0e0e0;
+  --select-border:    var(--hover-color);
+  --select-hover-border: #000000;
+}
+
+
+main, .cv, #headline, #headline button, #file {
+  display: flex;
+}
+
+main, .cv, #file {
+  flex-direction: column;
+}
+
+main, #headline, #headline button {
+  align-items: center;
+}
+
+a {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-color);
+  transition: .2s;
+}
+
+.cv > div {
+  padding: .25vh 2vh;
+  background-color: var(--nav-bg);
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+#info {
+  list-style: none;
+  padding: 0;
+}
+
+#info li {
+  padding: .2em 0;
+}
+
+#headline {
+  background-color: inherit;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+#headline button {
+  border: none;
+  color: var(--text-color);
+  background-color: var(--button-bg);
+  height: 3.5em;
+  width: auto;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+#headline i::before {
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#headline button:hover {
+  color: #d6d6d6;
+  background-color: var(--button-hover-bg);
+  transition: .2s;
+  cursor: pointer;
+}
+
+#file {
+  gap: .5em;
+}
+
+select {
+  background-color: var(--select-bg);
+  color: var(--text-color);
+  border-color: var(--select-border);
+  border-radius: 5px;
+}
+
+select:hover {
+  border-color: var(--select-hover-border);
+  transition: .2s;
+}
+
+.bolded-text {
+  font-weight: bold;
+  color: var(--hover-color);
+}

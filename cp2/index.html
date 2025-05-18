@@ -17,9 +17,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Open Source SVG icons -->
   <!-- Source: https://iconoir.com/ -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" /> 
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="home-styles.css">
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/mode-handler.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"> 
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/home-styles.css">
 </head>
 <body>
   <header id="nav-bar">
@@ -29,7 +31,7 @@
           <a href="index.html">Home</a>
         </li>
         <li>
-          <button class="mode-btn"><i class="iconoir-sun-light"></i></button>
+          <button id="mode-btn"><i class="iconoir-sun-light"></i></button>
         </li>
         <li>
           <a href="projects.html">Projects</a>
@@ -71,8 +73,8 @@
             First-Year Success Research Institute. I've taken many student leadership/
             government positions during my time at Caltech, and have the honor of
             serving on the Caltech Hispanic and Latino Association's executive 
-            committee (Caltech's SHPE and MAES Chapter). I'm also the captain of 
-            a Caltech Sunday League Soccer team, and a member of the 
+            committee (Caltech's SHPE and MAES Chapter). I'm also the captain of both 
+            a Caltech Sunday League Soccer team, a Caltech 3v3 Basketball League team, and a member of the 
             Caltech Volleyball Club.
           </p>
         </div>
@@ -86,6 +88,8 @@
           </ul>
         </div>
       </div>
+      <label for="time">What time is it?</label>
+      <input type="time" id="time">
     </div>  
   </main>
 </body>

@@ -7,6 +7,26 @@
   and design of the project page's grid layout.
 */
 
+:root {
+  --text-color:       white;
+  --bg-color:         #3a3a3a;
+  --nav-bg:           #1e1e1e;
+  --link-hover-bg:    #333;
+  --hover-color:      #a6e2f6;
+  --tag-bg:           #84b9d8;
+  --tag-hover:        #333;
+}
+
+[data-theme='light'] {
+  --text-color:       #222;
+  --bg-color:         #fff;
+  --nav-bg:           #f1f1f1;
+  --link-hover-bg:    #e0e0e0;
+  --hover-color:      #0077cc;
+  --tag-bg:           #5d9ecc;
+  --tag-hover:        #f0f0f0;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -26,8 +46,8 @@ main {
   list-style-type: none;
   display: flex;
   gap: 1em;
-  background-color: #8e8e8e;
-  color: #ffffff;
+  background-color: var(--link-hover-bg);
+  color: var(--text-color);
   padding: 1em .5em 1em .5em;
   width: 40%;
   border-radius: 5px;
@@ -43,13 +63,13 @@ main {
   column-gap: 2em;
   row-gap: 0;
   width: 90%;
-  background-color: #323232;
+  background-color: var(--nav-bg);
   padding: 2em;
   margin-bottom: 2%;
 }
 
 .project-card {
-  background-color: #1c1c1c;
+  background-color: var(--link-hover-bg);
   border-radius: 10px;
   max-height: fit-content;
   padding-bottom: 1em;
@@ -69,13 +89,13 @@ main {
 }
 
 .filter-tags li {
-  background-color: #55899b;
+  background-color: var(--tag-bg);
   padding: .2em .5em;
   border-radius: 8px;
 }
 
 .filter-tags li:hover {
-  color: black;
+  color: var(--tag-hover);
 }
 
 
