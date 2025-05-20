@@ -1,0 +1,76 @@
+/*
+  Name: Bryan Oliveira
+  Date: May 19th, 2025
+
+  Description: This is the styles.css file for my injury equipment e-commerce website.
+  It serves as the main stylesheet, and defaults to a light-mode look, with 
+  theming ready for dark mode.
+*/
+
+/* Will use to implement dark and light mode after JS scripting. */
+/* :root {
+   --background-color:     
+} */
+
+/* [data-theme='dark'] {
+  --text-color:     white;
+} */
+
+body, header, header ul, nav, nav ul { 
+  display: flex;
+}
+
+body, header ul, nav, nav ul {
+  align-items: center;
+}
+
+header ul, nav ul {
+  list-style: none;
+  gap: 2rem;
+}
+
+header, nav {
+  width: 100vw;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  flex-direction: column;
+  color: #1F2937;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  justify-content: flex-end;
+}
+
+header ul {
+  margin: 0 2% 0 0;
+  padding: .5rem 0;
+}
+
+nav {
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+}
+
+nav ul {
+  flex-direction: row;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav li:first-child {
+  margin-right: 25vw;
+}
+
+nav li:last-child {
+  margin-left: 30vw;
+}
