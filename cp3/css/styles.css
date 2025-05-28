@@ -2,42 +2,67 @@
   Name: Bryan Oliveira
   Date: Mayy 26th, 2025
 
-  Description: This is the styles.css file for my country API website.
+  Description: This is the styles.css file for my country API website. It attempts to recreate the
+  color scheme of most globes (green land, water, etc.).
 
 */
 
-body {
-  font-family: sans-serif;
+body, header, .region, .country-card, #list {
   display: flex;
   flex-direction: column;
+}
+
+header, .country-card {
+  background-color: #cdf1b8;
+}
+body, h3, h4, h5, .country-card img {
+  align-self: center;
+}
+
+body, header {
   align-items: center;
+}
+
+#list, .country-card {
+  padding: 0 1em;
+}
+
+body {
+  font-family: sans-serif;
   background-color: #CEF2F2;
-  margin: 0;
+  margin: 0 0 0 -1em;
   color: #274001;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #cdf1b8;
   width: 100vw;
 }
 
 .region {
-  display: flex;
-  flex-direction: column;
   width: 85vw;
 }
 
-.region h3 {
-  align-self: center;
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  color: #6f4314;
+}
+
+h5 {
+  color: #0c8172;
+  font-size: 1.1rem;
+}
+
+strong, p {
+  font-size: .85rem;
 }
 
 #list {
   margin-top: 1em;
+  padding-bottom: 1rem;
   background-color: bisque;
-  padding: 0 1em;
 }
 
 .country-grid {
@@ -47,16 +72,10 @@ header {
 }
 
 .country-card {
-  display: flex;
-  flex-direction: column;
-  background-color: #cdf1b8;
   width: 200px;
-  padding: 0 1em;
 }
 
 .country-card img {
-  align-self: center;
-  object-fit: fill;
   max-width: 80%;
   max-height: 30%;
   margin-bottom: 1em;
