@@ -45,7 +45,7 @@
         }
         listDiv.innerHTML = "";
         const msg = document.createElement("p");
-        msg.textContent = "Sorry, we couldn't load country data at this time. Please try again later.";
+        msg.textContent = `${error.message} Sorry, we couldn't load country data at this time. Please try again later.`;
         msg.style.color = "red";
         msg.style.fontWeight = "bold";
         listDiv.appendChild(msg);
