@@ -1,3 +1,4 @@
+.gitignore
 node_modules
 cp4-feedback.txt
 package-lock.json
