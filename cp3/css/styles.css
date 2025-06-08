@@ -1,10 +1,9 @@
 /* 
   Name: Bryan Oliveira
-  Date: Mayy 26th, 2025
+  Date: May 26th, 2025
 
   Description: This is the styles.css file for my country API website. It attempts to recreate the
   color scheme of most globes (green land, water, etc.).
-
 */
 
 body, header, .region, .country-card, #list {
