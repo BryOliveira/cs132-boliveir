@@ -1,0 +1,60 @@
+/* 
+  Name: Bryan Oliveira
+  Date: June 6th, 2025
+
+  Description: This is the styles.css file for my programming language API website.
+*/
+
+header, footer, #filters {
+  display: flex;
+}
+
+table, h3 {
+  justify-self: center;
+}
+
+body {
+  background-color: #e0e1dd;
+  font-family: 'Calibri', sans-serif;
+  margin: 0;
+  color: #0d1b2a;
+}
+
+header {
+  justify-content: center;
+}
+
+footer {
+  background-color: #1b263b;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #b9c2d1;
+}
+
+table {
+  border-spacing: 8rem 0;
+}
+
+table th {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #340af3
+}
+
+h3 {
+  color: red;
+}
+
+#filters {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+div > h2 {
+  margin-left: 1rem;
+}

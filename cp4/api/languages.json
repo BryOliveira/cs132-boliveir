@@ -1,0 +1,58 @@
+{
+  "python": {
+    "formattedName": "Python",
+    "paradigm": ["interpreted", "object-oriented", "procedural"],
+    "releaseDate": "1991",
+    "commonUses": ["web development", "data science", "scripting", "automation"],
+    "wikiLink": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+  },
+  "javascript": {
+    "formattedName": "JavaScript",
+    "paradigm": ["interpreted", "event-driven", "functional"],
+    "releaseDate": "1995",
+    "commonUses": ["web development", "server-side scripting", "mobile apps"],
+    "wikiLink": "https://en.wikipedia.org/wiki/JavaScript"
+  },
+  "c": {
+    "formattedName": "C",
+    "paradigm": ["procedural", "compiled"],
+    "releaseDate": "1972",
+    "commonUses": ["system programming", "embedded systems", "operating systems"],
+    "wikiLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
+  },
+  "c++": {
+    "formattedName": "C++",
+    "paradigm": ["procedural", "object-oriented", "generic", "compiled"],
+    "releaseDate": "1985",
+    "commonUses": ["game development", "high-performance applications", "system software"],
+    "wikiLink": "https://en.wikipedia.org/wiki/C%2B%2B"
+  },
+  "java": {
+    "formattedName": "Java",
+    "paradigm": ["object-oriented", "class-based", "compiled"],
+    "releaseDate": "1995",
+    "commonUses": ["enterprise applications", "Android apps", "web applications"],
+    "wikiLink": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+  },
+  "ocaml": {
+    "formattedName": "OCaml",
+    "paradigm": ["functional", "imperative", "object-oriented", "compiled"],
+    "releaseDate": "1996",
+    "commonUses": ["language research", "compilers", "formal verification"],
+    "wikiLink": "https://en.wikipedia.org/wiki/OCaml"
+  },
+  "ruby": {
+    "formattedName": "Ruby",
+    "paradigm": ["interpreted", "object-oriented"],
+    "releaseDate": "1995",
+    "commonUses": ["web development", "scripting", "prototyping"],
+    "wikiLink": "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+  },
+  "rust": {
+    "formattedName": "Rust",
+    "paradigm": ["concurrent", "functional", "imperative"],
+    "releaseDate": "2010",
+    "commonUses": ["system programming", "web assembly", "embedded systems"],
+    "wikiLink": "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+  }
+}
