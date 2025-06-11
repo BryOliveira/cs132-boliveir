@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "name": "knee brace",
+    "category": "prevention",
+    "subcategory": "knee brace",
+    "description": "a knee brace bro",
+    "price": 0.00,
+    "tags": ["knee", "brace"],
+    "image_url": "",
+    "alt_text": "knee_brace",
+    "in_stock": true
+  },
+  {
+    "id": "1",
+    "name": "ankle brace",
+    "category": "prevention",
+    "subcategory": "ankle brace",
+    "description": "an ankle brace bro",
+    "price": 0.00,
+    "tags": ["ankle", "brace"],
+    "image_url": "",
+    "alt_text": "ankle_brace",
+    "in_stock": true
+  }
+]
