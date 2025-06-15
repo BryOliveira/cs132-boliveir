@@ -1,5 +1,7 @@
 # Final Project: CS132
 
+Video Demo: https://www.youtube.com/watch?v=IPjsSINQzws
+
 ## Overview
 
 This project is an injury equipment e-commerce platform built for CS132 by Bryan Oliveira. It features a Node.js/Express REST API backend and a responsive frontend for browsing, searching, and purchasing products.
