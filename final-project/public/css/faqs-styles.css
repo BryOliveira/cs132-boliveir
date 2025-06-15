@@ -1,0 +1,13 @@
+/*
+  Stylesheet for the FAQs page
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+h2, .faqs h3 {
+  color: var(--accent-color);
+}
+
+p {
+  font-weight: normal;
+}

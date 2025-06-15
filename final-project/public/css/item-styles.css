@@ -1,0 +1,38 @@
+/*
+  Stylesheet for the item page-view.
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+.item, #item-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.item {
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.item img {
+  max-width: 45vw;
+  max-height: 50vh;
+}
+
+#item-info {
+  flex-direction: column;
+}
+
+#item-info h2 {
+  margin: 0;
+}
+
+#item-info button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  padding: 2rem 0;
+}
+
+#item-info button:hover {
+  background-color: var(--hover-color);
+}

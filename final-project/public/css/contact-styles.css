@@ -1,0 +1,49 @@
+/*
+  Stylesheet for the contact page
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+form, .form-row {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  color: var(--accent-color);
+}
+
+form {
+  flex-direction: column;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+form label {
+  min-width: 120px;
+  text-align: right;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+form input, form textarea {
+  margin: 0.5rem 0;
+  width: 30vw;
+  box-sizing: border-box;
+}
+
+form textarea {
+  height: 10vh;
+  vertical-align: middle;
+  resize: none;
+}
+
+main {
+  text-align: center;
+}
+
+form button {
+  background-color: var(--accent-color);
+}

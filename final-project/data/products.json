@@ -1,26 +1,222 @@
 [
   {
     "id": "0",
-    "name": "knee brace",
-    "category": "prevention",
-    "subcategory": "knee brace",
-    "description": "a knee brace bro",
-    "price": 0.00,
-    "tags": ["knee", "brace"],
-    "image_url": "",
-    "alt_text": "knee_brace",
+    "name": "Resistance Bands",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Set of multi-resistance latex bands ideal for muscle rehabilitation and strength training.",
+    "price": 19.99,
+    "image_url": "https://images.pexels.com/photos/6516206/pexels-photo-6516206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "in_stock": true
   },
   {
     "id": "1",
-    "name": "ankle brace",
+    "name": "Resistance Pulley Bands",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Pole-mounted pulley resistance bands for upper body rehabilitation and strengthening.",
+    "price": 24.99,
+    "image_url": "https://images.pexels.com/photos/8436160/pexels-photo-8436160.jpeg",
+    "in_stock": true
+  },
+  {
+    "id": "2",
+    "name": "Resistance Bands And Dumbbells",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Combo set including 4 resistance bands and two 3lb dumbbells for total body rehab.",
+    "price": 39.99,
+    "image_url": "https://images.pexels.com/photos/16695681/pexels-photo-16695681/free-photo-of-colorful-gums-and-dumbbells.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": false
+  },
+  {
+    "id": "3",
+    "name": "Basic PT Kit",
+    "category": "rehab",
+    "subcategory": "PT Kits",
+    "description": "All-in-one physical therapy kit with resistance bands, dumbbells, and a massage ball.",
+    "price": 54.99,
+    "image_url": "https://images.pexels.com/photos/4397831/pexels-photo-4397831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "4",
+    "name": "Kettlebell Set (4, 6, 8kg/8.8, 13.2, 17.6lbs)",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Durable neoprene-coated kettlebells for progressive strength and rehab training.",
+    "price": 79.99,
+    "image_url": "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "5",
+    "name": "Pair of 2kg (4.4lbs) Dumbbells",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Lightweight dumbbells perfect for recovery and gradual strength progression.",
+    "price": 14.99,
+    "image_url": "https://images.pexels.com/photos/39671/physiotherapy-weight-training-dumbbell-exercise-balls-39671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "6",
+    "name": "Pair of 3.2kg (7lbs) Dumbbells",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Mid-weight dumbbells ideal for building strength post-injury.",
+    "price": 18.99,
+    "image_url": "https://images.pexels.com/photos/4397838/pexels-photo-4397838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "7",
+    "name": "Pair of 1.4kg (3lbs) Dumbbells",
+    "category": "rehab",
+    "subcategory": "Resistance Training",
+    "description": "Ergonomic dumbbells designed for light rehab exercises and joint-friendly training.",
+    "price": 12.99,
+    "image_url": "https://images.pexels.com/photos/8846087/pexels-photo-8846087.jpeg",
+    "in_stock": true
+  },
+  {
+    "id": "8",
+    "name": "Massage Gun ",
+    "category": "recovery",
+    "subcategory": "Massage Tools",
+    "description": "Portable massage gun with 4 heads for deep tissue recovery and muscle relaxation.",
+    "price": 89.99,
+    "image_url": "https://images.pexels.com/photos/6389881/pexels-photo-6389881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "9",
+    "name": "Unicorn Sleep Mask",
+    "category": "recovery",
+    "subcategory": "Sleep Aids",
+    "description": "Soft, whimsical sleep mask designed to improve rest and recovery.",
+    "price": 9.99,
+    "image_url": "https://images.pexels.com/photos/7445030/pexels-photo-7445030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "10",
+    "name": "Gray Sleep Mask",
+    "category": "recovery",
+    "subcategory": "Sleep Aids",
+    "description": "Contoured blackout sleep mask to enhance rest and recovery.",
+    "price": 8.99,
+    "image_url": "https://images.pexels.com/photos/6603476/pexels-photo-6603476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "in_stock": true
+  },
+  {
+    "id": "11",
+    "name": "Velcro Wrist Brace",
     "category": "prevention",
-    "subcategory": "ankle brace",
-    "description": "an ankle brace bro",
-    "price": 0.00,
-    "tags": ["ankle", "brace"],
+    "subcategory": "Bracing + Supports",
+    "description": "Adjustable wrist brace with breathable fabric for support and injury prevention.",
+    "price": 16.99,
+    "image_url": "https://images.pexels.com/photos/8415175/pexels-photo-8415175.jpeg",
+    "in_stock": true
+  },
+  {
+    "id": "12",
+    "name": "Adhesive Athletic Tape Strips",
+    "category": "prevention",
+    "subcategory": "Tape + Wrapping",
+    "description": "Pre-cut adhesive strips for muscle and joint support during activity.",
+    "price": 11.99,
+    "image_url": "https://images.pexels.com/photos/6094040/pexels-photo-6094040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "in_stock": true
+  },
+  {
+    "id": "13",
+    "name": "Yoga Mat",
+    "category": "rehab",
+    "subcategory": "Range of Motion Tools",
+    "description": "Non-slip yoga mat for stretching, mobility, and range of motion rehab.",
+    "price": 21.99,
+    "image_url": "https://images.pexels.com/photos/2394051/pexels-photo-2394051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "in_stock": true
+  },
+  {
+    "id": "14",
+    "name": "Foam Roller",
+    "category": "prevention",
+    "subcategory": "Warm-up + Mobility Tools",
+    "description": "Firm foam roller for muscle release and injury prevention warm-ups.",
+    "price": 22.99,
+    "image_url": "https://images.pexels.com/photos/20890280/pexels-photo-20890280/free-photo-of-woman-stretching-back-on-roller.jpeg",
+    "in_stock": true
+  },
+  {
+    "id": "15",
+    "name": "Hand Foam Roller",
+    "category": "prevention",
+    "subcategory": "Warm-up + Mobility Tools",
+    "description": "Compact hand roller for localized muscle release and warm-up routines.",
+    "price": 14.99,
+    "image_url": "https://images.pexels.com/photos/4586897/pexels-photo-4586897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "in_stock": true
+  },
+  {
+    "id": "16",
+    "name": "Elbow Compression Sleeve",
+    "category": "prevention",
+    "subcategory": "Compression Gear",
+    "description": "Compression sleeve for elbows. Ambidextrous design for support and injury prevention.",
+    "price": 13.99,
     "image_url": "",
-    "alt_text": "ankle_brace",
+    "in_stock": true
+  },
+  {
+    "id": "17",
+    "name": "Mouthguard",
+    "category": "prevention",
+    "subcategory": "Protective Equipment",
+    "description": "A plastic mouthguard for teeth protection during sports and physical activity.",
+    "price": 9.99,
+    "image_url": "",
+    "in_stock": true
+  },
+  {
+    "id": "18",
+    "name": "Reusable Ice Pack",
+    "category": "recovery",
+    "subcategory": "Cold + Heat Therapy",
+    "description": "A reusable gel ice pack for cold therapy to reduce inflammation and aid recovery.",
+    "price": 18.99,
+    "image_url": "",
+    "in_stock": true
+  },
+  {
+    "id": "19",
+    "name": "Water Bottle",
+    "category": "recovery",
+    "subcategory": "Hydration + Nutrition", 
+    "description": "A BPA-free water bottle to stay hydrated during workouts and recovery.",
+    "price": 12.99,
+    "image_url": "",
+    "in_stock": true
+  },
+  {
+    "id": "20",
+    "name": "Balance Disc",
+    "category": "rehab",
+    "subcategory": "Balance Training",
+    "description": "Inflatable balance disc for stability exercises and joint rehab.",
+    "price": 17.99,
+    "image_url": "",
+    "in_stock": true
+  },
+  {
+    "id": "21",
+    "name": "Digital Goniometer",
+    "category": "rehab",
+    "subcategory": "Rehab Monitoring Tools",
+    "description": "Digital angle measurement tool for tracking joint range improvements during rehab.",
+    "price": 29.99,
+    "image_url": "",
     "in_stock": true
   }
 ]

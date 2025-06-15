@@ -1,0 +1,144 @@
+/*
+  Name: Bryan Oliveira
+  Date: June 11th, 2025
+
+  Description: This is the product-styles.css file for my injury equipment e-commerce website.
+  It serves as the stylesheet for the products page, and defaults to a light-mode look, with 
+  theming ready for dark mode.
+*/
+
+#sort, .product, #price-add, #filters, #product-section {
+  display: flex;
+}
+
+.crumbs, .crumbs a, #filters a {
+  color: var(--accent-color);
+}
+
+main {
+  width: 90%;
+}
+
+#sort {
+  justify-content: flex-end;
+  gap: .5rem;
+}
+
+#sort select {
+  padding: .2rem .2rem;
+}
+
+.crumbs {
+  margin: .5rem 0;
+}
+
+.crumbs a, #filters a {
+  text-decoration: none;
+  transition: .2s;
+}
+
+.crumbs a:hover{
+  color: var(--hover-color);
+  transition: .2s;
+}
+
+.crumbs ul {
+  list-style: none;
+  display: inline-flex;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.crumbs li:not(:last-child)::after {
+  content: "/";
+  margin: 0 .2rem;
+}
+
+#product-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.product {
+  flex-direction: column;
+  border: 1.5px solid var(--accent-color);
+  height: 450px;
+  gap: .4rem;
+  cursor: pointer;
+}
+
+.product span {
+  margin: .3rem;
+}
+
+#cost {
+  font-size: 1.2rem;
+  align-items: center;
+  margin-left: 2%;
+}
+
+#price-add {
+  justify-content: space-between;
+}
+
+#price-add button {
+  margin: 0 1rem .1rem 0;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+#price-add button:hover {
+  background-color: var(--hover-color);
+}
+
+.product img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#filters {
+  flex-direction: column;
+  width: 20vw;
+}
+
+#filters ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#filters a:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+
+.active, .active * {
+  text-decoration: underline !important;
+  color: var(--hover-color) !important;
+}
+
+#filters label, input {
+  cursor: pointer;
+}
+
+#product-section {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .product-results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 70%;
+    margin: 2rem 0;
+  }
+  #filters {
+    width: 20vw;
+  }
+}

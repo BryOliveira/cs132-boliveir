@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit/debit cards companies (e.g. MasterCard, Visa, etc.)."
+    },
+    {
+        "question": "I need help! How can I contact Comeback?",
+        "answer": "You can reach our us using our Contact Us page."
+    },
+    {
+        "question": "Can I return or exchange a product?",
+        "answer": "Yes, we offer returns and exchanges within 30 days of purchase. However, our Returns page is currently a WIP so please contact us directly for assistance."
+    },
+    {
+        "question": "How long does shipping take?",
+        "answer": "Orders are typically processed within 1-2 business days. Standard shipping takes 3-7 business days depending on your location."
+    },
+    {
+        "question": "Do you ship internationally?",
+        "answer": "Currently, we only ship within the United States."
+    },
+    {
+        "question": "How do I track my order?",
+        "answer": "Once your order ships, you will receive an email with tracking information. You can also log in to your account to view order status."
+    },
+    {
+        "question": "Are your products covered by warranty?",
+        "answer": "Many of our products come with a manufacturer's warranty. Please contact us for specific warranty information."
+    },
+    {
+        "question": "What should I do if I receive a damaged or incorrect item?",
+        "answer": "If you receive a damaged or incorrect item, please contact our customer support immediately with your order number and a photo of the item."
+    },
+    {
+        "question": "Do you offer discounts for bulk or group purchases?",
+        "answer": "Yes, we offer discounts for bulk and group purchases, especially if it's for a PT clinic. Please contact us for more information."
+    },
+    {
+        "question": "How do I add items to my cart?",
+        "answer": "Simply click the 'Add to cart' button on any product page to add the item to your shopping cart. Then you can click the 'cart' icon in the top right corner to view your cart and proceed to checkout at any time."
+    }
+]

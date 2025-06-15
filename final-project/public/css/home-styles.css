@@ -1,0 +1,179 @@
+/*
+  Name: Bryan Oliveira
+  Date: June 11th, 2025
+
+  Description: This is the home-styles.css file for my injury equipment e-commerce website.
+  It serves as the stylesheet for the home page, and defaults to a light-mode look, with 
+  theming ready for dark mode.
+*/
+
+#break, #break > div, #break > div > div, #eyecatch, #eyecatch > div, #eyecatch > div > div, #banner, #banner > div, #collage, #top-row, #bottom-row {
+  display: flex;
+}
+
+#break, #break > div > div, #eyecatch > div > div, #collage {
+  flex-direction: column;
+}
+
+#break {
+  width: 100%;
+  align-items: center;
+}
+
+#break > div {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#break i::before {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+#break i:hover {
+  background-color: var(--hover-color);
+  transition: .2s;
+  border-radius: 40%;
+}
+
+#break > div * {
+  margin: .2rem;
+}
+
+#break > div > div {
+  align-items: center;
+}
+
+#eyecatch {
+  justify-content: center;
+}
+
+#eyecatch i::before {
+  color: var(--accent-color);
+  min-height: 10rem;
+  width: 10rem;
+}
+
+#eyecatch > div {
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#banner {
+  justify-content: center;
+  position: relative;
+  height: 80vh;
+}
+
+#banner video {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#banner > div {
+  position: absolute;
+  height: 100%;
+  align-items: center;
+  left: 10%;
+  top: 20%;
+  width: 60%;
+}
+
+#stronk {
+  color: var(--hover-color)
+}
+
+#banner div div {
+  background: rgba(0, 0, 0, .2);
+  color: var(--secondary-color);
+  border-radius: 2%;
+  padding: 1rem 2rem;
+}
+
+#banner button {
+  color: var(--accent-color);
+}
+
+#banner div div h2 {
+  padding: .1rem;
+  margin: 0;
+  font-family: 'Oswald', 'Noto Sans', sans-serif;
+}
+
+#banner div div p {
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+@media (max-width: 700px) {
+  #info-container {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 900px) {
+  #eyecatch > div, #break > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #banner > div {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+  }
+  #banner div div {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
+#join {
+  background-color: var(--accent-color);
+}
+
+#join:hover {
+  background-color: var(--hover-color);
+}
+
+button a, button a:hover {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+#path {
+  color: var(--accent-color);
+}
+
+#collage {
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+#top-row img {
+  object-fit: cover;
+  max-width: 45%; 
+}
+
+#top-row, #bottom-row {
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#bottom-row img {
+  object-fit: cover;
+  max-width: 30%;
+}

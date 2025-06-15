@@ -1,0 +1,14 @@
+/*
+  Stylesheet for the about page
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+h2 {
+  color: var(--accent-color);
+}
+
+main {
+    text-align: center;
+    width: 80%;
+}

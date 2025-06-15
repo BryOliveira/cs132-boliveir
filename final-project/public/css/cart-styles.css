@@ -1,0 +1,55 @@
+/*
+  Stylesheet for the cart page
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+#cart-list > div.cart-item, #cart-summary {
+  display: flex;
+}
+
+#cart-summary button{
+  background-color: var(--accent-color);
+}
+
+#cart-summary button:hover{
+  background-color: var(--hover-color);
+}
+
+h2 {
+  color: var(--accent-color);
+}
+
+#cart-list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#cart-list > div.cart-item {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+
+#cart-list img {
+  flex-shrink: 0;
+}
+
+#cart-list .cart-item > div {
+  min-width: 120px;
+}
+
+#cart-summary {
+  flex-direction: column;
+  align-items: flex-end;
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+
+#cart-summary button {
+  align-self: flex-end;
+  margin-top: 1rem;
+}

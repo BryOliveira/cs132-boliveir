@@ -1,0 +1,17 @@
+/*
+  Stylesheet for the signup/login page
+  Name: Bryan Oliveira
+  Date: June 14th, 2025
+*/
+
+#signup-form, #login-form, main button, #login-message {
+  margin-top: 1rem;
+}
+
+#signup-form, #login-form {
+  display: none;
+}
+
+main button {
+  background-color: var(--accent-color);
+}
