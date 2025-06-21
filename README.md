@@ -13,5 +13,5 @@ Countries project interacting with the REST Countries API allowing you to sort t
 ## CP4: "Languages Galore API" 
 Full-stack site built using Node.JS and Express using a self-built RESTful API to make GET requests for information about different languages, their paradigms, etc.
 
-## Final Project: 
+## Final Project "Comeback":  
 Full-stack E-commerce site and RESTful API with a focus on injury prevention, recovery, and rehab products. 
